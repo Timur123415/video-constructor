@@ -1,0 +1,106 @@
+.form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    width: 40px;
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: bisque;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.search {
+    width: 220px;
+    margin: 0 auto;
+    border: 1px solid bisque;
+    border-radius: 20px;
+    padding: 5px
+}
+
+.search-input {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.search-img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.delete {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.card-list {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.card {
+    width: 300px;
+    height: 550px;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.btn-delete {
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.label-checkbox .span-checkbox {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+input[type='checkbox']:checked + span {
+    background-image: url(../public/img/check.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
